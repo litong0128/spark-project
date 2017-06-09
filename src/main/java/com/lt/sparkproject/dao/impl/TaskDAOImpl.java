@@ -1,7 +1,8 @@
-package com.lt.sparkproject.dao;
+package com.lt.sparkproject.dao.impl;
 
 import java.sql.ResultSet;
 
+import com.lt.sparkproject.dao.ITaskDAO;
 import com.lt.sparkproject.domain.Task;
 import com.lt.sparkproject.jdbc.JDBCHelper;
 
